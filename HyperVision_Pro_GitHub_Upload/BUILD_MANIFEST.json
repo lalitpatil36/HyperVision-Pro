@@ -1,0 +1,66 @@
+{
+  "application": "SpectralView",
+  "files": {
+    "INSTALL_DEPENDENCIES.bat": {
+      "sha256": "b0fba6c2c2b84e417b288944420d397c204df0e6bbaa0a5afee30f03c1d5699c",
+      "size_bytes": 247
+    },
+    "README.md": {
+      "sha256": "789a31174a1547b40f8c91cbce9d891d5e9a15a9c43eb1cfea0c442df11f53c6",
+      "size_bytes": 6120
+    },
+    "RUN_CORE_TESTS.bat": {
+      "sha256": "a4dca2c1951b10d1dd80264112651e324b7996419e1ca6f9ec27b7f0f143db58",
+      "size_bytes": 236
+    },
+    "START_SPECTRALVIEW.bat": {
+      "sha256": "eff9a440889815b3810adf5e4aadf31a8ead19520e944cc6b8e7f06ce7cccff4",
+      "size_bytes": 175
+    },
+    "START_SPECTRALVIEW.py": {
+      "sha256": "39d1ee1be4c20a9957445164ccf9422d6a10892adaa6d7c0b1559030ce286890",
+      "size_bytes": 991
+    },
+    "UPGRADE_MANIFEST.json": {
+      "sha256": "67eba77f365cb4c39ad97817f76759fc3cf4fa1fab792f71a0ae1139beaa5b9e",
+      "size_bytes": 782
+    },
+    "VALIDATION_REPORT.md": {
+      "sha256": "83584328e7aca5b5eadb93b1f71d58d11bfc478a28d01c49352ca994b5c51d18",
+      "size_bytes": 2448
+    },
+    "requirements.txt": {
+      "sha256": "d348f4618d0712cd154d0c60edf0bea3648d309e0f16245a98644b9d4de25583",
+      "size_bytes": 121
+    },
+    "spectral_batch.py": {
+      "sha256": "8c9b16b1a77418b102f26d903456bfd7d6acbb9f8c0867813b6237f9b9c8d5ea",
+      "size_bytes": 2477
+    },
+    "spectral_core.py": {
+      "sha256": "04162eac026359395f1d2529afb64972751637f53e950a3bbf2522d80e3389bc",
+      "size_bytes": 47125
+    },
+    "spectral_gui.py": {
+      "sha256": "06a098a1849f939d4cad2ed96587b633fc75f5e4ab855aae06914be0e93928dc",
+      "size_bytes": 60910
+    },
+    "tests/test_envi_integration.py": {
+      "sha256": "007d2fa70b57eef919bb845600c7f86791e099bbe6ea02fe0765b9b764e58f56",
+      "size_bytes": 2332
+    },
+    "tests/test_gui_smoke.py": {
+      "sha256": "7e6da8a7db7df3daeb885fce0104ed6d6ae7f82974f691a9ff7b37e6d96681d4",
+      "size_bytes": 1269
+    },
+    "tests/test_spectral_core.py": {
+      "sha256": "2474629b6450d6c354fccfd113ca97526e5cb8e0c715fac1ad703930c87d6a35",
+      "size_bytes": 3859
+    }
+  },
+  "native_windows_validation": false,
+  "python_build_environment": "3.13.5",
+  "release_status": "STABLE_CANDIDATE_NOT_EXTERNALLY_VALIDATED",
+  "validation": "12 pytest tests passed; ENVI integration, offscreen GUI, GUI CLI smoke, and batch CLI smoke passed",
+  "version": "2.1.12"
+}

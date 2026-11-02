@@ -1,0 +1,20 @@
+{
+  "application": "SpectralView",
+  "core_test_count": 12,
+  "core_tests_passed": 12,
+  "live_gui_test_mode": "PyQt5 offscreen with synthetic ENVI raw/dark/white dataset",
+  "live_gui_tested_in_build_environment": true,
+  "native_windows_status": "REQUIRED_BEFORE_CERTIFIED_RELEASE",
+  "native_windows_tested": false,
+  "original_file": "spectral_gui.py",
+  "release_status": "STABLE_CANDIDATE_NOT_EXTERNALLY_VALIDATED",
+  "scientific_claim_repairs": [
+    "Removed dummy grain grades",
+    "Implemented genuine Spectral Angle Mapper",
+    "Implemented raw-dark-white reflectance calibration",
+    "Made true colour wavelength-based",
+    "Unified GUI and batch scientific calculations",
+    "Added explicit terminal batch statuses and atomic evidence"
+  ],
+  "version": "2.1.12"
+}
